@@ -52,7 +52,7 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 
 dt.predict([[5,6]])
-
+```
 
 ```
 
