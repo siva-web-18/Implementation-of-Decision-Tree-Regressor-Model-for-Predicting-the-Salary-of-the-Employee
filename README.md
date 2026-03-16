@@ -18,7 +18,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 8. Apply to new unknown values.
 
 ## Program:
-``
+```
 
 import pandas as pd
 data=pd.read_csv("Salary.csv")
@@ -52,9 +52,11 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 
 dt.predict([[5,6]])
+print("Predicted Salaries:", y_pred)
+print("Mean Squared Error:", mse)
 ```
 
-```
+
 
 ## Output:
 <img width="390" height="265" alt="image" src="https://github.com/user-attachments/assets/800bcb06-6fcb-4060-ba96-f7ad65acefb1" />
